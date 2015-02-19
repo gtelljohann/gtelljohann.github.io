@@ -1,0 +1,18 @@
+{
+  "name": "personal-site",
+  "version": "0.0.0",
+  "homepage": "https://github.com/gtelljohann/gtelljohann.github.io",
+  "authors": [
+    "Griffin <g.telljohann@gmail.com>"
+  ],
+  "description": "Griffin Telljohann's Personal Site",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
