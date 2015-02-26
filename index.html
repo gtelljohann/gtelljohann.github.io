@@ -1,22 +1,119 @@
 <html>
-    <head>
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    </head>
-
-    <body>
-      <div class="container">
-
-This is the text of my website...
-
-
-
+  <head>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  </head>
+  <body>
+    <header class="container">
+      <nav class="top-nav orange">
+        <div class="nav-wrapper">
+          <!--  <a href="" class="brand-logo">Griffin Telljohann</a> -->
+          <span class="name">Griffin Telljohann</span>
+          <ul class="right hide-on-med-and-down valign-wrapper">
+            <li><a href="http://github.com/gtelljohann"><i class="icon-github"></i></a></li>
+            <li><a href="components.html"><i class="mdi-action-view-module"></i></a></li>
+            <li><a href="javascript.html"><i class="mdi-navigation-refresh"></i></a></li>
+            <li><a href="mobile.html"><i class="mdi-navigation-more-vert"></i></a></li>
+          </ul>
         </div>
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-    </body>
-  </html>
+      </nav>
+    </header>
+    <main class="container">
+    <div class="card cyan">
+      <div class="row">
+        <div class="col s3 valign-wrapper">
+          <img src="http://placekitten.com/g/75/75" class="headshot circle responsive-img" />
+        </div>
+        <div class="col s9">
+          <p>Hello!  I'm Griffin, a fullstack Javascript developer based in New York City. There is a picture to the left of this text (I didn't say it was a picture of me, did I?) and some projects below you can check out.</p>
+          <p>Bacon ipsum dolor amet kielbasa turducken bresaola ground round pork loin, pork sausage. Pork loin porchetta bacon pig ball tip. Kielbasa cow porchetta frankfurter. Doner jowl corned beef prosciutto, salami alcatra filet mignon. Prosciutto hamburger shank pork chop flank rump brisket filet mignon tri-tip pork pastrami cupim kevin doner turkey. Pork belly ribeye shankle hamburger filet mignon turducken pastrami flank bacon leberkas boudin venison. Pork shank swine hamburger jerky strip steak kevin meatloaf.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card cyan">
+      <div class="row">
+        <div class="col s12">
+          <h3>Projects</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 project-block">
+          <h5>Phones Against Humanity</h5>
+          <p>An online version of Cards Against Humanity, built with Angular, Node, Express, MongoDB, and SocketIO</p>
+          <ul>
+            <li>Abstracted out platform elements common to multiple games with AngularJS factories and directives to enable support for multiple games</li>
+            <li>Communicated real-time updates to all players using sockets</li>
+            <li>Interfaced with the Twilio API to send text message invites to games</li>
+            <li>Links: <a target="_blank" href="http://boardgamehub.herokuapp.com/">Demo,</a> <a target="_blank" href="https://github.com/hugomarcotte/PAH">Github</a> </li>
+          </ul>
+        </div>
+        <div class="col s12 m6 project-block">
+          <h5>SwiftCard</h5>
+          <p>A demo ecommerce site with credit card processing and emailed redeemable codes</p>
+          <ul>
+            <li>Stored persistant guest cart information using cookies</li>
+            <li>Integrated with the Stripe API to process payments</li>
+            <li>Designed database models with automatic data validations using Mongoose</li>
+            <li><a target="_blank" href="http://swiftcard.herokuapp.com">Demo</a></li>
+            <li><a target="_blank" href="https://github.com/BenjaminConant/stack_store">Github</a></li>
+          </ul>
+        </div>
+        <div class="col s12 m6 project-block">
+          <h5>The Know York Times News Quiz</h5>
+          <p>A web app that can generate a curated true/false quiz based on the day's New York Times articles</p>
+          <ul>
+            <li>Interfaced with the NYTimes API to get the day's articles and associated images and snippets</li>
+            <li>Won Best Use of a NYTimes API at TimesOpen Hack Day 2014</li>
+            <li><a target="_blank" href="http://theknowyorktimesquiz.herokuapp.com">Demo</a></li>
+            <li><a target="_blank" href="https://github.com/hugomarcotte/KnowYorkTimes">Github</a></li>
+          </ul>
+        </div>
+        <div class="col s12 m6 project-block">
+          <h5>Board Gamr</h5>
+          <p>A board game recommendation app that generates suggestions based on user preferences and shared game mechanics</p>
+          <ul>
+            <li><a target="_blank" href="http://boardgamr.io">Demo</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="card cyan">
+      <div class="row">
+        <div class="col s12">
+          <h3>Education</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 education-block">
+          <h5>Princeton University</h5>
+          <p>A.B., Computer Science (2011)</p>
+          <p>Independent Work:</p>
+          <ul>
+            <li><span class="italic">Who Wants to be an A+ Student?</span> (Web Review Game)</li>
+            <li><span class="italic">Virtual Tour Guide Application for Android Phones</span> (Senior Thesis)</li>
+          </ul>
+        </div>
+        <div class="col s12 m6 education-block">
+          <h5>Fullstack Academy of Code</h5>
+          <p>Web Development Immersive (2015)</p>
+          <p>An intensive course that focuses on the MEAN stack: MongoDB, Express, Angular, and Node</p>
+        </div>
+      </div>
+    </div>
+    </main>
+    <div class="container">
+      <footer class="page-footer cyan z-depth-1">
+        <div class="footer-copyright">
+          &copy; 2015 Griffin Telljohann
+          <!--  <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+        </div>
+      </footer>
+    </div>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+  </body>
+</html>

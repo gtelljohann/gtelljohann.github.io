@@ -1,0 +1,29 @@
+.icon-github:before {
+	content:url(icons/GitHub-Mark-32px.png);
+}
+
+.headshot {
+	margin-top:40%;
+	height:15%;
+}
+
+.name {
+	padding-left: 20px;
+	font-size: 30px;
+}
+
+.card {
+	padding:10px 5% 10px 5%;
+}
+
+.footer-copyright {
+	padding-left: 20px;
+}
+
+.project-block {
+	float:left;
+}
+
+.italic {
+	font-style:italic;
+}
