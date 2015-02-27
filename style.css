@@ -2,9 +2,9 @@
 	content:url(icons/GitHub-Mark-32px.png);
 }
 
-.headshot {
-	margin-top:40%;
-	height:15%;
+.icon a {
+	padding-top:16px;
+	padding-bottom:16px;
 }
 
 .name {
@@ -21,7 +21,7 @@
 }
 
 .project-block {
-	float:left;
+/*	float:left;*/
 }
 
 .italic {
