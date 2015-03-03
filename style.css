@@ -2,6 +2,10 @@
 	content:url(icons/GitHub-Mark-32px.png);
 }
 
+.icon-linkedin:before {
+	content:url(icons/In-Black-34px-R.png);
+}
+
 .icon a {
 	padding-top:16px;
 	padding-bottom:16px;
@@ -12,12 +16,16 @@
 	font-size: 30px;
 }
 
+.about-me .row {
+	margin-top:20px;
+}
+
 .card {
 	padding:10px 5% 10px 5%;
 }
 
 .footer-copyright {
-	padding-left: 20px;
+	padding: 0px 5%;
 }
 
 .project-block {
