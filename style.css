@@ -42,3 +42,8 @@
 footer.page-footer {
 	margin-top: 15px;
 }
+
+blockquote {
+	font-style: italic;
+	color: #666666;
+}
