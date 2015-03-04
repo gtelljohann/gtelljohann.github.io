@@ -39,6 +39,10 @@
 	margin-top: 1rem;
 }
 
+.about-me .image-container {
+	padding-right:25px;
+}
+
 footer.page-footer {
 	margin-top: 15px;
 }
