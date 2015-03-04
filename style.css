@@ -29,9 +29,30 @@
 }
 
 .project-block {
-/*	float:left;*/
 }
 
 .italic {
 	font-style:italic;
+}
+
+.card.about-me {
+	margin-top: 1rem;
+}
+
+.about-me .image-container {
+	padding-right:25px;
+}
+
+footer.page-footer {
+	margin-top: 15px;
+}
+
+blockquote {
+	font-style: italic;
+	color: #666666;
+}
+
+h3 {
+	margin-top:2.5rem;
+	margin-bottom: 0;
 }
