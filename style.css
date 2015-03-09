@@ -56,3 +56,21 @@ h3 {
 	margin-top:2.5rem;
 	margin-bottom: 0;
 }
+
+  .clearfix:before, 
+  .clearfix:after {
+    content: ""; 
+    display: table; 
+  }
+
+  .clearfix:after {
+    clear: both;
+  }
+
+  .card a.btn {
+  	color:white;
+  	margin-top:5px;
+  /*	position:relative;
+  	bottom:10px;*/
+  }
+
